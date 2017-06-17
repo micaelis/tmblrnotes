@@ -1,4 +1,4 @@
-<script>
+
     function calendar(month) {
         var padding = "";
         var totalFeb = "";
@@ -49,4 +49,3 @@
         document.getElementById("calendar").innerHTML += calendarTable;
     }
     calendar(new Date().getMonth());
-</script>
